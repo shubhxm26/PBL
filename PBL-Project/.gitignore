@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.pt
+checkpoints/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables
+.env
+.env.local
+
+# Database / Volumes
+data/
+pgdata/
+redisdata/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db

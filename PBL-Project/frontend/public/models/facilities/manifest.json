@@ -1,0 +1,382 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-10-07T18:19:11.036Z",
+  "targetFootprintRadius": 8,
+  "totalFacilities": 6,
+  "facilities": {
+    "PORT-JNPT-01": {
+      "id": "PORT-JNPT-01",
+      "code": "JNPT",
+      "name": "JNPT Port Container Terminal",
+      "shortName": "JNPT Port",
+      "city": "Navi Mumbai",
+      "category": "PORT",
+      "filename": "facility_jnpt.glb",
+      "path": "/models/facilities/facility_jnpt.glb",
+      "fileSizeBytes": 609004,
+      "fileSizeFormatted": "594.7 KB",
+      "meshCount": 320,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        9.375,
+        0.256,
+        12.963
+      ],
+      "stagePosition": [
+        -44,
+        0,
+        32
+      ],
+      "hasEmissive": true,
+      "description": "Deepwater container terminal and import/export maritime gateway"
+    },
+    "DEP-PNV-01": {
+      "id": "DEP-PNV-01",
+      "code": "PANVEL",
+      "name": "Panvel Logistics Depot",
+      "shortName": "Panvel Depot",
+      "city": "Panvel",
+      "category": "DEPOT",
+      "filename": "facility_panvel.glb",
+      "path": "/models/facilities/facility_panvel.glb",
+      "fileSizeBytes": 776368,
+      "fileSizeFormatted": "758.2 KB",
+      "meshCount": 266,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        12.472,
+        0.32,
+        10.018
+      ],
+      "stagePosition": [
+        -34,
+        0,
+        24
+      ],
+      "hasEmissive": true,
+      "description": "Multimodal rail-road interchange and container staging depot"
+    },
+    "HUB-THN-01": {
+      "id": "HUB-THN-01",
+      "code": "THANE",
+      "name": "Thane Regional Hub",
+      "shortName": "Thane Hub",
+      "city": "Thane",
+      "category": "HUB",
+      "filename": "facility_thane.glb",
+      "path": "/models/facilities/facility_thane.glb",
+      "fileSizeBytes": 773308,
+      "fileSizeFormatted": "755.2 KB",
+      "meshCount": 287,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        10.337,
+        0.198,
+        12.211
+      ],
+      "stagePosition": [
+        -24,
+        0,
+        16
+      ],
+      "hasEmissive": true,
+      "description": "Northern MMR distribution and cross-dock sorting center"
+    },
+    "DC-BHW-01": {
+      "id": "DC-BHW-01",
+      "code": "BHIWANDI",
+      "name": "Bhiwandi Central Mega DC",
+      "shortName": "Bhiwandi Mega DC",
+      "city": "Bhiwandi",
+      "category": "DC",
+      "filename": "facility_bhiwandi.glb",
+      "path": "/models/facilities/facility_bhiwandi.glb",
+      "fileSizeBytes": 1017340,
+      "fileSizeFormatted": "993.5 KB",
+      "meshCount": 423,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        11.004,
+        0.183,
+        11.614
+      ],
+      "stagePosition": [
+        -14,
+        0,
+        2
+      ],
+      "hasEmissive": true,
+      "description": "High-throughput e-commerce fulfillment and primary warehousing cluster"
+    },
+    "DEP-NSK-01": {
+      "id": "DEP-NSK-01",
+      "code": "NASHIK",
+      "name": "Nashik Agro Depot",
+      "shortName": "Nashik Depot",
+      "city": "Nashik",
+      "category": "DEPOT",
+      "filename": "facility_nashik.glb",
+      "path": "/models/facilities/facility_nashik.glb",
+      "fileSizeBytes": 780292,
+      "fileSizeFormatted": "762.0 KB",
+      "meshCount": 352,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        8.718,
+        0.269,
+        13.414
+      ],
+      "stagePosition": [
+        42,
+        6.5,
+        -48
+      ],
+      "hasEmissive": true,
+      "description": "North Maharashtra agricultural consolidation and cold storage depot"
+    },
+    "FC-PUN-01": {
+      "id": "FC-PUN-01",
+      "code": "PUNE",
+      "name": "Pune Auto Fulfillment Center",
+      "shortName": "Pune FC",
+      "city": "Pune (Hinjewadi)",
+      "category": "FC",
+      "filename": "facility_pune.glb",
+      "path": "/models/facilities/facility_pune.glb",
+      "fileSizeBytes": 813092,
+      "fileSizeFormatted": "794.0 KB",
+      "meshCount": 395,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        11.6,
+        0.237,
+        11.017
+      ],
+      "stagePosition": [
+        28,
+        5.5,
+        42
+      ],
+      "hasEmissive": true,
+      "description": "Southern industrial corridor automotive and electronics fulfillment center"
+    }
+  },
+  "items": [
+    {
+      "id": "PORT-JNPT-01",
+      "code": "JNPT",
+      "name": "JNPT Port Container Terminal",
+      "shortName": "JNPT Port",
+      "city": "Navi Mumbai",
+      "category": "PORT",
+      "filename": "facility_jnpt.glb",
+      "path": "/models/facilities/facility_jnpt.glb",
+      "fileSizeBytes": 609004,
+      "fileSizeFormatted": "594.7 KB",
+      "meshCount": 320,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        9.375,
+        0.256,
+        12.963
+      ],
+      "stagePosition": [
+        -44,
+        0,
+        32
+      ],
+      "hasEmissive": true,
+      "description": "Deepwater container terminal and import/export maritime gateway"
+    },
+    {
+      "id": "DEP-PNV-01",
+      "code": "PANVEL",
+      "name": "Panvel Logistics Depot",
+      "shortName": "Panvel Depot",
+      "city": "Panvel",
+      "category": "DEPOT",
+      "filename": "facility_panvel.glb",
+      "path": "/models/facilities/facility_panvel.glb",
+      "fileSizeBytes": 776368,
+      "fileSizeFormatted": "758.2 KB",
+      "meshCount": 266,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        12.472,
+        0.32,
+        10.018
+      ],
+      "stagePosition": [
+        -34,
+        0,
+        24
+      ],
+      "hasEmissive": true,
+      "description": "Multimodal rail-road interchange and container staging depot"
+    },
+    {
+      "id": "HUB-THN-01",
+      "code": "THANE",
+      "name": "Thane Regional Hub",
+      "shortName": "Thane Hub",
+      "city": "Thane",
+      "category": "HUB",
+      "filename": "facility_thane.glb",
+      "path": "/models/facilities/facility_thane.glb",
+      "fileSizeBytes": 773308,
+      "fileSizeFormatted": "755.2 KB",
+      "meshCount": 287,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        10.337,
+        0.198,
+        12.211
+      ],
+      "stagePosition": [
+        -24,
+        0,
+        16
+      ],
+      "hasEmissive": true,
+      "description": "Northern MMR distribution and cross-dock sorting center"
+    },
+    {
+      "id": "DC-BHW-01",
+      "code": "BHIWANDI",
+      "name": "Bhiwandi Central Mega DC",
+      "shortName": "Bhiwandi Mega DC",
+      "city": "Bhiwandi",
+      "category": "DC",
+      "filename": "facility_bhiwandi.glb",
+      "path": "/models/facilities/facility_bhiwandi.glb",
+      "fileSizeBytes": 1017340,
+      "fileSizeFormatted": "993.5 KB",
+      "meshCount": 423,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        11.004,
+        0.183,
+        11.614
+      ],
+      "stagePosition": [
+        -14,
+        0,
+        2
+      ],
+      "hasEmissive": true,
+      "description": "High-throughput e-commerce fulfillment and primary warehousing cluster"
+    },
+    {
+      "id": "DEP-NSK-01",
+      "code": "NASHIK",
+      "name": "Nashik Agro Depot",
+      "shortName": "Nashik Depot",
+      "city": "Nashik",
+      "category": "DEPOT",
+      "filename": "facility_nashik.glb",
+      "path": "/models/facilities/facility_nashik.glb",
+      "fileSizeBytes": 780292,
+      "fileSizeFormatted": "762.0 KB",
+      "meshCount": 352,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        8.718,
+        0.269,
+        13.414
+      ],
+      "stagePosition": [
+        42,
+        6.5,
+        -48
+      ],
+      "hasEmissive": true,
+      "description": "North Maharashtra agricultural consolidation and cold storage depot"
+    },
+    {
+      "id": "FC-PUN-01",
+      "code": "PUNE",
+      "name": "Pune Auto Fulfillment Center",
+      "shortName": "Pune FC",
+      "city": "Pune (Hinjewadi)",
+      "category": "FC",
+      "filename": "facility_pune.glb",
+      "path": "/models/facilities/facility_pune.glb",
+      "fileSizeBytes": 813092,
+      "fileSizeFormatted": "794.0 KB",
+      "meshCount": 395,
+      "boundingRadius": 8,
+      "center": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": [
+        11.6,
+        0.237,
+        11.017
+      ],
+      "stagePosition": [
+        28,
+        5.5,
+        42
+      ],
+      "hasEmissive": true,
+      "description": "Southern industrial corridor automotive and electronics fulfillment center"
+    }
+  ]
+}
