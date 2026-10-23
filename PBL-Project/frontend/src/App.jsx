@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import { PersonaProvider } from './context/PersonaContext';
 import { WorkspaceProvider } from './context/WorkspaceContext';
 import PersistentStage3D from './components/PersistentStage3D';
@@ -6,8 +7,19 @@ import CyberStatusBar from './components/CyberStatusBar';
 import WindowManager from './components/WindowManager';
 import GlassDock from './components/GlassDock';
 import ErrorBoundary from './components/ErrorBoundary';
+import AccessPortal from './components/AccessPortal';
 
 function App() {
+  const [isDashboardOpen, setIsDashboardOpen] = useState(false);
+
+  if (!isDashboardOpen) {
+    return (
+      <div className="access-portal">
+        <AccessPortal onAuthenticated={() => setIsDashboardOpen(true)} />
+      </div>
+    );
+  }
+
   return (
     <ErrorBoundary name="NeoLogix Global Application Root">
       <PersonaProvider>
